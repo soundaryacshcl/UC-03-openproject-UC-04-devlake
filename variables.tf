@@ -35,10 +35,3 @@ variable "key_name" {
   default     = " "
   
 }
-
-variable "tcp_ports" {
-  description = "List of TCP ports to allow in the security group"
-  type        = list(string)
-  default     = [ ]
-  
-}
